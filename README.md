@@ -1,7 +1,7 @@
-# Hook — AI Powered Phishing Email Detector
+# Hook — Phishing Email Detector
 
-> **.Phishing is responsible for over 90% of data breaches.** Hook uses
-> Claude to analyze raw email content and instantly
+> **Phishing is responsible for over 90% of data breaches.**
+> Analyzes raw email content and instantly
 > surface the tactics attackers use — urgency manipulation, impersonation,
 > credential harvesting, suspicious links, and spoofing — with a plain-English
 > explanation of every red flag and a concrete recommended action.
