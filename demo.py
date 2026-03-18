@@ -55,7 +55,7 @@ def dim(t: str) -> str:
 @dataclass
 class SampleEmail:
     label: str
-    expected: str  # "safe" | "suspicious" | "Hooking"
+    expected: str  # "safe" | "suspicious" | "phishing"
     text: str
 
 
@@ -306,7 +306,7 @@ def main() -> None:
     print(bold("  ██║     ██║  ██║██║███████║██║  ██║╚██████╔╝╚██████╔╝██║  ██║██║  ██║██████╔╝"))
     print(bold("  ╚═╝     ╚═╝  ╚═╝╚═╝╚══════╝╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝"))
     print()
-    print(f"  {dim('AI-Powered Hooking Email Detector  |  powered by Claude')}")
+    print(f"  {dim('AI-Powered Phishing Email Detector  |  powered by Claude')}")
     print(f"  {dim('Analyzing ' + str(len(SAMPLES)) + ' sample emails...')}")
 
     for idx, sample in enumerate(SAMPLES, start=1):

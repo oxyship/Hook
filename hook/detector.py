@@ -166,7 +166,7 @@ class HookDetector:
         try:
             response = self.client.messages.parse(
                 model=self.model,
-                max_tokens=1024,
+                max_tokens=2048,
                 system=SYSTEM_PROMPT,
                 messages=[
                     {
